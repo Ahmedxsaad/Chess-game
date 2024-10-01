@@ -22,7 +22,7 @@ To run this project, you need the following dependencies installed:
 Install the required dependencies using pip:
 
 ```bash
-pip install pygame python-chess
+pip install pygame python-chess```
 Installation
 
     Clone the repository:
