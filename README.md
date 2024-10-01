@@ -1,4 +1,4 @@
-Chess Game UI with Pygame
+#Chess Game UI with Pygame
 
 A simple chess game UI created with Pygame and python-chess library to visualize and interact with chess moves. This project focuses on creating the graphical interface and handling chessboard interactions, not the full AI logic.
 Features
