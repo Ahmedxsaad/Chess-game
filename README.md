@@ -23,11 +23,11 @@ pip install pygame python-chess
 ```
 ## Installation
 ```bash
-git clone https://github.com/yourusername/Chess-Game-UI.git
-cd Chess-Game-UI
+git clone https://github.com/ahmedxsaad/Chess-Game.git
+cd Chess-Game
 ```
 ```bash
-python chess_game.py
+python chessgame.py
 ```
 Project Structure
 
