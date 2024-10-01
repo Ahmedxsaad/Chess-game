@@ -1,84 +1,63 @@
 # Chess Game UI with Pygame
 
-A simple chess game UI created with **Pygame** and **python-chess** to visualize and interact with chess moves. This project focuses on creating a graphical interface and handling chessboard interactions, not the full AI logic.
+This project is a **simple chess game UI** built using **Pygame** and **python-chess**. It allows players to visualize and interact with chess moves on a graphical chessboard. The focus is on creating a user-friendly interface and handling chessboard interactions, not on implementing AI or advanced game logic.
 
-## Features
+## **Features**
 
-- Graphical chessboard built with Pygame.
-- Custom chess piece images loaded from local files.
-- Displays legal moves and highlights selected pieces.
-- Interact with the game using mouse clicks to make moves.
+- **Graphical Chessboard**: An interactive chessboard rendered using Pygame.
+- **Custom Chess Pieces**: Load and display custom chess piece images.
+- **Legal Moves Highlighting**: Shows possible legal moves and highlights selected pieces.
+- **Mouse Interaction**: Click to select and move pieces.
+- **Basic Chess Rules**: Enforces turn order and move legality.
 
-## Getting Started
+## Screenshots
+![image](https://github.com/user-attachments/assets/943d0191-e673-4079-8ba1-d4e9f7e4412d)
 
-### Prerequisites
+![image](https://github.com/user-attachments/assets/4bf22741-be2f-4ae7-96cf-1b984aaeaa6d)
 
-To run this project, you need the following dependencies installed:
+### **Prerequisites**
 
-- [Python 3.x](https://www.python.org/downloads/)
-- [Pygame](https://www.pygame.org/wiki/GettingStarted) 
-- [python-chess](https://pypi.org/project/python-chess/)
+- **Python 3.x**: [Download Python](https://www.python.org/downloads/)
+- **Pygame**: For rendering the game interface.
+- **python-chess**: For handling chess logic.
 
-Install the required dependencies using pip:
+Install the required packages using pip:
 
 ```bash
-pip install pygame python-chess```
-Installation
-
-    Clone the repository:
-
-    bash
-
-    git clone https://github.com/ahmedxsaad/Chess-game.git
-    cd Chess-game
-
-    Download or place your custom chess piece images in the chess_pieces/ folder:
-
-    Ensure that the images are correctly named according to the chess pieces:
-        PW.png, PB.png for pawns (White, Black)
-        RW.png, RB.png for rooks
-        KW.png, KB.png for knights
-        BW.png, BB.png for bishops
-        QW.png, QB.png for queens
-        KIW.png, KIB.png for kings
-
-    The naming convention is W for white pieces and B for black pieces.
-
-Running the Game
-
-To run the game, use the following command:
-
-bash
-
+pip install pygame python-chess
+```
+## Installation
+```bash
+git clone https://github.com/yourusername/Chess-Game-UI.git
+cd Chess-Game-UI
+```
+```bash
 python chess_game.py
-
-How to Play
-
-    Click on a piece to select it.
-    Possible legal moves will be highlighted with circles on the board.
-    Click on a legal move to move the selected piece.
-    The game follows the basic chess rules without AI for now.
-
+```
 Project Structure
 
-bash
+```bash
 
-.
-├── chess_game.py       # Main game logic
-├── chess_pieces/       # Folder with chess piece images
-└── README.md           # This file
+Chess-Game-UI/
+├── chess_game.py       # Main game script
+├── chess_pieces/       # Directory for chess piece images
+└── README.md           # Project README file
+```
+## How to Play
 
-License
+    Select a Piece: Click on a piece to select it.
+    View Legal Moves: Possible legal moves will be highlighted on the board.
+    Move a Piece: Click on a highlighted square to move the selected piece.
+    Turn-Based Play: The game enforces turn order—white moves first, followed by black.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Screenshots
-![image](https://github.com/user-attachments/assets/960177c1-d610-4bec-a3c1-db1e8f046b46)
-![image](https://github.com/user-attachments/assets/874503e4-3d02-415b-a4a6-710d6902f5c2)
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Contributing
+## Contributing
 
-Feel free to submit issues, fork the repository, and make pull requests with improvements or new features.
-Contact
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-For any questions or issues, feel free to reach out to me via GitHub.
+---
+
+Happy playing! 🎮
