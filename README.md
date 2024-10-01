@@ -11,7 +11,6 @@ This project is a **simple chess game UI** built using **Pygame** and **python-c
 - **Basic Chess Rules**: Enforces turn order and move legality.
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/943d0191-e673-4079-8ba1-d4e9f7e4412d)
 
 ![image](https://github.com/user-attachments/assets/4bf22741-be2f-4ae7-96cf-1b984aaeaa6d)
 
