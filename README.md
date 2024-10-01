@@ -10,10 +10,6 @@ This project is a **simple chess game UI** built using **Pygame** and **python-c
 - **Mouse Interaction**: Click to select and move pieces.
 - **Basic Chess Rules**: Enforces turn order and move legality.
 
-## Screenshots
-
-![image](https://github.com/user-attachments/assets/4bf22741-be2f-4ae7-96cf-1b984aaeaa6d)
-
 ### **Prerequisites**
 
 - **Python 3.x**: [Download Python](https://www.python.org/downloads/)
@@ -42,6 +38,10 @@ Chess-Game-UI/
 ├── chess_pieces/       # Directory for chess piece images
 └── README.md           # Project README file
 ```
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/4bf22741-be2f-4ae7-96cf-1b984aaeaa6d)
 ## How to Play
 
     Select a Piece: Click on a piece to select it.
